@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BukuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/buku',[BukuController::Class,'buku0060']);
+Route::get('/buku/cari',[BukuController::Class,'cari']);
+Route::get('/join',[BukuController::Class,'innerjoin']);
+Route::get('/join/cari',[BukuController::Class,'carijoin']);
