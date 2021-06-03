@@ -10,13 +10,13 @@
     border: 1px solid #ddd;
     }
     thead {
-    background-color: #f2f2f2;
+    background-color: #40E0D0;
     }
     th, td {
     text-align: left;
     padding: 8px;
     }
-    tr:nth-child(even){background-color: #f2f2f2}
+    tr:nth-child(even){background-color: #40E0D0}
     .tambah{
     padding: 8px 16px ;
     text-decoration: none;
